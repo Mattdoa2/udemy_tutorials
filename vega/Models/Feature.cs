@@ -1,9 +1,9 @@
 namespace vega.Models
-{
+{   
     public class Feature
     {
-        int id;
-        string name;
+        public int ID { get; set; }
+        public string Name { get; set; }
         Feature(){}
     }
 }

@@ -1,11 +1,13 @@
-namespace vega.Models
+using System;
+using System.Collections.Generic;
 
+namespace vega.Models
 {
     public class Make
     {
-        int id;
-        string name;
-        Model [] models;
+        public int ID { get; set; }
+        public string Name { get; set; }
+        public ICollection<Model> Models { get; set; }
         
         Make(){}
         
